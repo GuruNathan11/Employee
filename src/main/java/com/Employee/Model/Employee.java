@@ -2,6 +2,7 @@ package com.Employee.Model;
 
 import org.springframework.data.annotation.Id;
 
+@Document(collection = "Employee")
 public class Employee {
 	
 	@Id
